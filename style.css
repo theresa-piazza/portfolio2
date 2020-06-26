@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+
+}
+
+header nav ul li {
+  text-align: center;
+  color: #727080;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 5px;
+  list-style: none;
+  
+}
+
+header nav ul li a:hover {
+  color: #f335aa;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0 20px 0 0;
+}
+
+header {
+  background-color: #ffcad4;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+
+body {
+  background-color: #dad2d8;
+  padding-bottom: 100px;
+}
+
+h1 {
+  color: rgb(107, 99, 117);
+  font-size: 50px;
+}
+
+.ul-contact {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8e9aaf;
+  list-style: none;
+  padding-top: 10px;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #727080;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding: 5px;
+}
+
+h4 {
+  text-align: left;
+  color: #290ddb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+main {
+  text-align: center;
+  margin: 25px;
+  width: auto;
+  padding: 25px;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #727080;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-callout {
+  background-color:#f8edeb;
+  padding: 35px;
+}
+
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+
+.box-small {
+   height: 100px;
+}
+
+
+/* mobile first using flex */
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.item {
+  flex: 1;
+  margin: 15px;
+ 
+}
+
+.item-double {
+  flex: 2;
+  margin: 15px;
+  padding: 5px;
+}
+
+.item-centered {
+  flex: 1;
+  margin: 15px;
+  padding-top: 80px;
+}
+
+/* media queries for desktop */
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+   header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav {
+    margin-top: 14px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+form label {
+  display:block;
+  padding-top:15px;
+}
+
+form input, form text area {
+  width: 100%;
+}
+
+form textarea {
+  height: 150px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+form button {
+  background-color:#ffc6ff;
+  color: #f335aa;
+  height: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/* psuedo classes that dictate the colors of my links */
+a:link {
+  color:#73a942; 
+  }
+a:visited {
+  color: #968bd6;
+  }
+a:hover {
+  color: #ffc6ff;
+  }
+a:active {
+  color: #02c39a; 
+  }
