@@ -2,10 +2,18 @@
   box-sizing: border-box;
 }
 
+h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(107, 99, 117);
+  font-size: 50px;
+}
+
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-right: 10px;
 }
 
 header nav ul {
@@ -47,10 +55,6 @@ body {
   padding-bottom: 100px;
 }
 
-h1 {
-  color: rgb(107, 99, 117);
-  font-size: 50px;
-}
 
 .ul-contact {
   text-align: center;
@@ -98,10 +102,6 @@ img {
   padding: 35px;
 }
 
-.wrapper {
-  width: 500px;
-  margin: auto;
-}
 
 
 .box-small {
@@ -118,7 +118,7 @@ img {
 
 .item {
   flex: 1;
-  margin: 15px;
+  margin: 30px;
  
 }
 
@@ -149,6 +149,21 @@ img {
     justify-content: center;
     padding-top: 20px;
   }
+
+  .item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .wrapper {
+    padding-left: 20%;
+    padding-right: 20%
+  }
+
+  .intro {
+    padding-top: 30px;
+  } 
+  
 }
 
 form label {
